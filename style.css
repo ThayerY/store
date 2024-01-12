@@ -10,7 +10,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 60vh;
-  /* Adjust the height as needed */
+  /* Adjust the height as needed  */
 }
 
 .responsive-image {
@@ -25,9 +25,8 @@ body {
   background-repeat: no-repeat;
   background-position: center center;
   margin: 0;
-  /* Remove margin for body */
+  /* Remove margin for body  */
 }
-
 
 .p1 {
   position: absolute;
@@ -38,13 +37,19 @@ body {
   color: aliceblue;
 }
 
-
 .footage {
   color: aliceblue;
   text-align: center;
-  /* Center the text */
+  /* Center the text  */
   position: absolute;
   bottom: 10px;
-  /* Adjust the bottom spacing */
+  /* Adjust the bottom spacing  */
   width: 100%;
+}
+
+/* Media Query for smaller screens */
+@media only screen and (max-width: 600px) {
+  .p1 {
+    font-size: 18px;
+  }
 }
